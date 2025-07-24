@@ -7,7 +7,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Abhiko',
-  description: 'A stylish, localStorage-powered QR-based dine-in and food delivery platform with a built-in social feed called Abigram.',
+  description: 'A stylish, QR-based dine-in and food delivery platform with a built-in social feed called Abigram.',
 };
 
 export default function RootLayout({
