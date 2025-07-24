@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/next';
 import { AppProviders } from '@/providers/app-providers';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={cn("font-body antialiased min-h-screen")}>
         <AppProviders>
           {children}
+          <Analytics />
           <Toaster />
         </AppProviders>
       </body>
